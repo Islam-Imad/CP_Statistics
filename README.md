@@ -18,7 +18,7 @@ This project visualizes the total solved problems for a given user across multip
     cd CP_Statistics
     ```
 
-2. Create and activate a virtual environment (optional but recommended):
+1. Create and activate a virtual environment (optional but recommended):
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
@@ -31,9 +31,7 @@ This project visualizes the total solved problems for a given user across multip
 
 ## Usage
 
-1. **Setup**: Ensure you have the necessary API keys and access tokens for the competitive programming platforms (if required).
-
-2. **Run the script**: Execute the main script to gather data and generate the visualizations.
+1. **Run the script**: Execute the main script to gather data and generate the visualizations.
     ```bash
     python app.py
     ```
