@@ -1,5 +1,3 @@
-from typing import List
-
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -33,5 +31,11 @@ for item in y:
 plt.pie(x, labels=y)
 plt.legend()
 plt.subplot().set_title(str(total), {'fontsize': 30})
+
+output_folder = 'output'
+file_name = 'plot.png'
+file_path = f'{output_folder}/{file_name}'
+plt.savefig(file_path)
+
 plt.show()
 
