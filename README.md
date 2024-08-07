@@ -20,7 +20,7 @@ This project visualizes the total solved problems for a given user across multip
 
 1. Create and activate a virtual environment (optional but recommended):
     ```bash
-    python -m venv venv
+    python3 -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
